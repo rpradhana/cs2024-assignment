@@ -6,7 +6,7 @@ var rename = require('gulp-rename');
 
 gulp.task('sass', function () {
 	return gulp.src('./src/bulma/sass/style.sass')
-		.pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
+		.pipe(sass().on('error', sass.logError))
 		.pipe(rename('style.min.css'))
 		.pipe(gulp.dest('./public/static/css'));
 });

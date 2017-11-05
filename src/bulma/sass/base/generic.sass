@@ -18,6 +18,19 @@ $hr-margin: 1.5rem 0 !default
 $strong-color: $text-strong !default
 $strong-weight: $weight-bold !default
 
+@import url('https://fonts.googleapis.com/css?family=Prata');
++font-face('Brandon Text', '../fonts/Brandon Text/BrandonText-Light', 300);
++font-face('Brandon Text', '../fonts/Brandon Text/BrandonText-Regular', 400);
++font-face('Brandon Text', '../fonts/Brandon Text/BrandonText-Medium', 500);
++font-face('Brandon Text', '../fonts/Brandon Text/BrandonText-Bold', 600);
+
+*,
+*:before,
+*:after
+  -webkit-box-sizing: border-box
+  -moz-box-sizing: border-box
+  box-sizing: border-box
+
 html
   background-color: $body-background-color
   font-size: $body-size
@@ -125,3 +138,28 @@ table
     vertical-align: top
   th
     color: $text-strong
+
+  h1
+    font-size: 2em
+    margin-bottom: 0.5em
+    &:not(:first-child)
+      margin-top: 1em
+  h2
+    font-size: 1.75em
+    margin-bottom: 0.5714em
+    &:not(:first-child)
+      margin-top: 1.1428em
+  h3
+    font-size: 1.5em
+    margin-bottom: 0.6666em
+    &:not(:first-child)
+      margin-top: 1.3333em
+  h4
+    font-size: 1.25em
+    margin-bottom: 0.8em
+  h5
+    font-size: 1.125em
+    margin-bottom: 0.8888em
+  h6
+    font-size: 1em
+    margin-bottom: 1em

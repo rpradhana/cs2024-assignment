@@ -1,5 +1,45 @@
 $footer-background-color: $background !default
 
 .footer
-  background-color: $footer-background-color
-  padding: 3rem 1.5rem 6rem
+	background-color: $footer-background-color
+	padding: $size-1 $size-4 $size-1
+	.footer-content
+		display: flex
+		justify-content: space-between
+		.footer-menu
+			display: flex
+			flex-direction: row
+			align-items: center
+			.button.is-primary
+				margin-right: $size-7
+			.button.is-text
+				color: $grey-lighter
+				&:hover
+					color: $white-ter
+			.separator
+				width: 1px
+				height: $size-4
+				+box-shadow(inset 1px 0 0 0 $white)
+		.footer-brand
+			color: $grey-lighter !important
+			text-align: right
+			div:not(:nth-last-child(1))
+				margin-bottom: 0.5rem
+			div > *
+				margin-left: 0.5rem
+			a
+				color: inherit
+				&:hover
+					color: $white-ter
+
+.sub-footer
+	padding: $size-6 $size-4 $size-6
+	background-color: $black-bis
+	.sub-footer-content
+		display: flex
+		.button.is-text
+			color: $grey
+			&:hover
+				color: $grey-lighter
+			&:nth-child(1)
+				padding-left: 0

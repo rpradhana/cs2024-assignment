@@ -1,0 +1,27 @@
+.debug * {
+	-webkit-transition: all 0.1s ease-out;
+	-moz-transition: all 0.1s ease-out;
+	transition: all 0.1s ease-out;
+}
+.debug:not(.d).o *:hover {
+	-webkit-box-shadow: 0 0 2px 0px inset rgba(0,17,34,0.5); !important
+	-moz-box-shadow: 0 0 2px 0px inset rgba(0,17,34,0.5); !important
+	box-shadow: 0 0 2px 0px inset rgba(0,17,34,0.5); !important
+}
+.debug:not(.d).f *:hover {
+	background-color: rgba(0,17,34,0.05);
+}
+.debug:not(.h):not(.d).o * {
+	-webkit-box-shadow: 0 0 2px 0px inset rgba(0,17,34,0.5); !important
+	-moz-box-shadow: 0 0 2px 0px inset rgba(0,17,34,0.5); !important
+	box-shadow: 0 0 2px 0px inset rgba(0,17,34,0.5); !important
+}
+.debug:not(.h):not(.d).f * {
+	background-color: rgba(0,17,34,0.05);
+}
+
+.hero-custom {
+	height: 100vh;
+	justify-content: center;
+	background: src('http://via.placeholder.com/');
+}

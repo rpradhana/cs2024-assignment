@@ -4,81 +4,288 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Landing - Free Bulma template</title>
+	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
+	<meta http-equiv="Pragma" content="no-cache"/>
+	<meta http-equiv="Expires" content="0"/>
+	<title>LaMariée</title>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
-	<!-- Bulma Version 0.6.0 -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.0/css/bulma.min.css" integrity="sha256-HEtF7HLJZSC3Le1HcsWbz1hDYFPZCqDhZa9QsCgVUdw=" crossorigin="anonymous" />
-	<link rel="stylesheet" type="text/css" href="../css/landing.css">
+	<link rel="stylesheet" type="text/css" href="./static/css/style.css">
+	<link rel="stylesheet" type="text/css" href="./static/css/override.css">
+	<script src="https://use.fontawesome.com/4ae5ce3b8a.js"></script>
 </head>
-<body>
-	<section class="hero is-info is-fullheight">
-		<div class="hero-head">
-			<nav class="navbar">
-				<div class="container">
-					<div class="navbar-brand">
-						<a class="navbar-item" href="../">
-							<img src="http://bulma.io/images/bulma-type-white.png" alt="Logo">
-						</a>
-						<span class="navbar-burger burger" data-target="navbarMenu">
-							<span></span>
-							<span></span>
-							<span></span>
-						</span>
+<body class="debug o h d">
+	<nav class="navbar is-white" role="navigation" aria-label="main navigation">
+		<div class="container">
+			<div class="navbar-brand">
+				<a href="#">
+					<img src="./static/images/lamariee.svg" class="is-flex">
+				</a>
+			</div>
+			<div class="navbar-menu">
+				<div class="navbar-end">
+					<div class="navbar-item">
+						<a href="#" class="button is-medium is-white">Services</a>
 					</div>
-					<div id="navbarMenu" class="navbar-menu">
-						<div class="navbar-end">
-							<a class="navbar-item is-active">
-								Home
-							</a>
-							<a class="navbar-item">
-								Examples
-							</a>
-							<a class="navbar-item">
-								Documentation
-							</a>
-							<span class="navbar-item">
-								<a class="button is-white is-outlined is-small" href="https://github.com/dansup/bulma-templates/blob/master/templates/landing.html">
-									<span class="icon">
-										<i class="fa fa-github"></i>
-									</span>
-									<span>View Source</span>
-								</a>
-							</span>
+					<div class="navbar-item">
+						<a href="#" class="button is-medium is-white">Testimonials</a>
+					</div>
+					<div class="navbar-item">
+						<a href="#" class="button is-medium is-white">Pricing</a>
+					</div>
+					<div class="navbar-item">
+						<a href="#" class="button is-medium is-white">About Us</a>
+					</div>
+					<div class="navbar-item">
+						<a href="#" class="button is-medium is-medium is-primary is-outlined">Chat with us!</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+	<section class="hero home_hero is-white is-fullheight">
+		<div class="hero-body">
+			<div class="container">
+				<div class="columns">
+					<div class="column is-half is-offset-half">
+						<h1 class="title home_hero-title">
+							Arrange your dream wedding.
+						</h1>
+						<a href="#" class="button is-primary is-large">Chat with us!</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="hero hero-cta is-light has-text-centered">
+		<div class="hero-body">
+			<div class="container">
+				<h2 class="title">
+					Duis ut incididunt officia fugiat nostrud anim deserunt mollit.
+				</h2>
+			</div>
+		</div>
+	</section>
+	<section class="section hero is-white home_feature">
+		<div class="container">
+			<div class="columns">
+				<div class="column">
+					<figure class="image home_feature-icon">
+						<img src="http://via.placeholder.com/512x512">
+					</figure>
+					<div class="content">
+						<h3>
+							Lorem Ipsum
+						</h3>
+						<p>
+							Quis eiusmod laboris dolor aliquip dolore aliquip incididunt sint dolore ad. Id in dolor.
+						</p>
+					</div>
+					<a href="#" class="button is-medium is-primary">Chat with us!</a>
+				</div>
+				<div class="column">
+					<figure class="image home_feature-icon">
+						<img src="http://via.placeholder.com/512x512">
+					</figure>
+					<div class="content">
+						<h3>
+							Lorem Ipsum
+						</h3>
+						<p>
+							Quis eiusmod laboris dolor aliquip dolore aliquip incididunt sint dolore ad. Id in dolor.
+						</p>
+					</div>
+					<a href="#" class="button is-medium is-primary">Chat with us!</a>
+				</div>
+				<div class="column">
+					<figure class="image home_feature-icon">
+						<img src="http://via.placeholder.com/512x512">
+					</figure>
+					<div class="content">
+						<h3>
+							Lorem Ipsum
+						</h3>
+						<p>
+							Quis eiusmod laboris dolor aliquip dolore aliquip incididunt sint dolore ad. Id in dolor.
+						</p>
+					</div>
+					<a href="#" class="button is-medium is-primary">Chat with us!</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="section is-light">
+		<div class="container">
+			<div class="columns">
+				<div class="column">
+					<figure class="image is-16by9 home_testimonial-video">
+						<img src="http://via.placeholder.com/640x360">
+					</figure>
+				</div>
+				<div class="column">
+					<figure class="image is-16by9 home_testimonial-video">
+						<img src="http://via.placeholder.com/640x360">
+					</figure>
+				</div>
+				<div class="column">
+					<figure class="image is-16by9 home_testimonial-video">
+						<img src="http://via.placeholder.com/640x360">
+					</figure>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="hero hero-cta is-primary has-text-centered">
+		<div class="container">
+			<div class="columns">
+				<div class="column">
+					<h2 class="title">Tempor in aliquip adipisicing veniam ut do excepteur cillum id anim.</h2>
+					<a href="#" class="button is-white is-large has-text-primary">Chat with us!</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="section is-light">
+		<div class="container">
+			<div class="columns">
+				<div class="column">
+					<div class="card">
+						<div class="card-content">
+							<div class="media">
+								<div class="media-left">
+									<figure class="image is-48x48 is-circle">
+										<img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+									</figure>
+								</div>
+								<div class="media-content">
+									<p class="is-4">John Smith</p>
+									<p class="subtitle is-6">@johnsmith</p>
+								</div>
+							</div>
+
+							<div class="content">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+								Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+								<a href="#">#css</a> <a href="#">#responsive</a>
+								<br>
+								<time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+							</div>
 						</div>
 					</div>
 				</div>
-			</nav>
-		</div>
+				<div class="column">
+					<div class="card">
+						<div class="card-content">
+							<div class="media">
+								<div class="media-left">
+									<figure class="image is-48x48 is-circle">
+										<img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+									</figure>
+								</div>
+								<div class="media-content">
+									<p class="is-4">John Smith</p>
+									<p class="subtitle is-6">@johnsmith</p>
+								</div>
+							</div>
 
-		<div class="hero-body">
-			<div class="container has-text-centered">
-				<div class="column is-6 is-offset-3">
-					<h1 class="title">
-						Coming Soon
-					</h1>
-					<h2 class="subtitle">
-						 $this is the best software platform for running an internet business. We handle billions of dollars every year for forward-thinking businesses around the world.
-					</h2>
-					<div class="box">
-						
-						<div class="field is-grouped">
-							<p class="control is-expanded">
-								<input class="input" type="text" placeholder="Enter your email">
-							</p>
-							<p class="control">
-								<a class="button is-info">
-									Notify Me
-								</a>
-							</p>
+							<div class="content">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+								Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+								<a href="#">#css</a> <a href="#">#responsive</a>
+								<br>
+								<time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="column">
+					<div class="card">
+						<div class="card-content">
+							<div class="media">
+								<div class="media-left">
+									<figure class="image is-48x48 is-circle">
+										<img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+									</figure>
+								</div>
+								<div class="media-content">
+									<p class="is-4">John Smith</p>
+									<p class="subtitle is-6">@johnsmith</p>
+								</div>
+							</div>
+
+							<div class="content">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+								Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+								<a href="#">#css</a> <a href="#">#responsive</a>
+								<br>
+								<time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="columns">
+				<div class="column has-text-centered">
+					<a href="#" class="button is-medium is-primary button-love">
+						<span>
+							View more love
+						</span>
+						<span class="icon is-size-7">
+							<i class="fa fa-heart" aria-hidden="true"></i>
+						</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="footer">
+			<div class="container">
+				<div class="columns">
+					<div class="column">
+						<div class="footer-content">
+							<div class="footer-menu">
+								<a href="#" class="button is-medium is-primary is-outlined">Chat with us!</a>
+								<a href="#" class="button is-medium is-text is-inverted">Services</a>
+								<div class="separator"></div>
+								<a href="#" class="button is-medium is-text is-inverted">Testimonials</a>
+								<div class="separator"></div>
+								<a href="#" class="button is-medium is-text is-inverted">Pricing</a>
+								<div class="separator"></div>
+								<a href="#" class="button is-medium is-text is-inverted">About Us</a>
+							</div>
+							<div class="footer-brand">
+								<div>
+									<span>LaMariée</span>
+									<span>|</span>
+									<span>50 Nanyang Ave, Singapore 639798</span>
+								</div>
+								<div>
+									<a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+									<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+									<a href="#"><i class="fa fa-medium" aria-hidden="true"></i></a>
+									<a href="mailto:info@lamariee.com">info@lamariee.com</a>
+									<a href="tel:+6596374039">+65 9637 4039</a>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-
-	</section>
-	<script async type="text/javascript" src="../js/bulma.js"></script>
+		<div class="sub-footer">
+			<div class="container">
+				<div class="columns">
+					<div class="column">
+						<div class="sub-footer-content">
+							<a href="#" class="button is-small is-text is-inverted">Privacy Policy</a>
+							<a href="#" class="button is-small is-text is-inverted">&copy; LaMariée 2017</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
 </body>
 	<!-- Start of Async Drift Code -->
 	<script>

@@ -1,4 +1,4 @@
-$primary: $turquoise !default
+$primary: $pink !default
 
 $info: $cyan !default
 $success: $green !default
@@ -18,8 +18,9 @@ $cyan-invert: findColorInvert($cyan) !default
 $blue-invert: findColorInvert($blue) !default
 $purple-invert: findColorInvert($purple) !default
 $red-invert: findColorInvert($red) !default
+$pink-invert: findColorInvert($pink) !default
 
-$primary-invert: $turquoise-invert !default
+$primary-invert: $pink-invert !default
 $info-invert: $cyan-invert !default
 $success-invert: $green-invert !default
 $warning-invert: $yellow-invert !default
@@ -55,7 +56,7 @@ $link: $blue !default
 $link-invert: $blue-invert !default
 $link-visited: $purple !default
 
-$link-hover: $grey-darker !default
+$link-hover: darken($blue, 15)
 $link-hover-border: $grey-light !default
 
 $link-focus: $grey-darker !default
@@ -67,6 +68,7 @@ $link-active-border: $grey-dark !default
 // Typography
 
 $family-primary: $family-sans-serif !default
+$family-emphasis: $family-serif !default
 $family-code: $family-monospace !default
 
 $size-small: $size-7 !default

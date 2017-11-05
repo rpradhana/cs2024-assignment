@@ -7424,6 +7424,9 @@ label.panel-block {
   width: 3rem;
   -webkit-box-shadow: 0 2px 4px 1px rgba(10, 10, 10, 0.25);
   box-shadow: 0 2px 4px 1px rgba(10, 10, 10, 0.25); }
+  @media screen and (min-width: 1024px) {
+    .drift-fab {
+      display: none; } }
   .drift-fab .icon {
     position: absolute;
     color: white !important;

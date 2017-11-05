@@ -1,28 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
-	<meta http-equiv="Pragma" content="no-cache"/>
-	<meta http-equiv="Expires" content="0"/>
+	<meta name="description" content="Aliquip exercitation do esse sit consequat non minim in incididunt.">
+	<!-- <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/> -->
+	<!-- <meta http-equiv="Pragma" content="no-cache"/> -->
+	<!-- <meta http-equiv="Expires" content="0"/> -->
 	<title>LaMariée</title>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+	<link rel="icon" type="image/png"  href="./static/images/favicon.png">
 	<link rel="stylesheet" type="text/css" href="./static/css/style.css">
 	<link rel="stylesheet" type="text/css" href="./static/css/override.css">
 	<script src="https://use.fontawesome.com/4ae5ce3b8a.js"></script>
 </head>
 <body class="debug o h d">
-	<nav class="navbar is-white" role="navigation" aria-label="main navigation">
+	<div class="drift-fab">
+		<a class="drift">
+			<span class="icon">
+				<i class="fa fa-comment" aria-hidden="true"></i>
+			</span>
+		</a>
+	</div>
+	<nav class="navbar is-white shadow-is-hidden" role="navigation" aria-label="main navigation">
 		<div class="container">
 			<div class="navbar-brand">
 				<a href="#">
-					<img src="./static/images/lamariee.svg" class="is-flex">
+					<img id="logo-primary" src="./static/images/lamariee.svg" class="is-flex" alt="LaMariée">
 				</a>
 			</div>
-			<div class="navbar-menu">
+			<button class="button navbar-burger" data-target="navMenu">
+				<span></span>
+				<span></span>
+				<span></span>
+			</button>
+			<div id="navMenu" class="navbar-menu">
 				<div class="navbar-end">
 					<div class="navbar-item">
 						<a href="#" class="button is-medium is-white">Services</a>
@@ -36,8 +48,8 @@
 					<div class="navbar-item">
 						<a href="#" class="button is-medium is-white">About Us</a>
 					</div>
-					<div class="navbar-item">
-						<a href="#" class="button is-medium is-medium is-primary is-outlined">Chat with us!</a>
+					<div class="navbar-item is-hidden-mobile">
+						<a class="button is-medium is-medium is-primary is-outlined drift">Chat with us!</a>
 					</div>
 				</div>
 			</div>
@@ -47,11 +59,14 @@
 		<div class="hero-body">
 			<div class="container">
 				<div class="columns">
-					<div class="column is-half is-offset-half">
-						<h1 class="title home_hero-title">
+					<div class="column is-half is-hidden-touch">
+						<img src="./static/images/hero.png" class="hero-image">
+					</div>
+					<div class="column is-half home_hero-content">
+						<h1 class="title">
 							Arrange your dream wedding.
 						</h1>
-						<a href="#" class="button is-primary is-large">Chat with us!</a>
+						<a class="button is-primary is-large drift">Chat with us!</a>
 					</div>
 				</div>
 			</div>
@@ -71,7 +86,7 @@
 			<div class="columns">
 				<div class="column">
 					<figure class="image home_feature-icon">
-						<img src="http://via.placeholder.com/512x512">
+						<img src="http://via.placeholder.com/512x512" alt="Lorem Ipsum">
 					</figure>
 					<div class="content">
 						<h3>
@@ -81,11 +96,11 @@
 							Quis eiusmod laboris dolor aliquip dolore aliquip incididunt sint dolore ad. Id in dolor.
 						</p>
 					</div>
-					<a href="#" class="button is-medium is-primary">Chat with us!</a>
+					<a class="button is-medium is-primary drift">Chat with us!</a>
 				</div>
 				<div class="column">
 					<figure class="image home_feature-icon">
-						<img src="http://via.placeholder.com/512x512">
+						<img src="http://via.placeholder.com/512x512" alt="Lorem Ipsum">
 					</figure>
 					<div class="content">
 						<h3>
@@ -95,11 +110,11 @@
 							Quis eiusmod laboris dolor aliquip dolore aliquip incididunt sint dolore ad. Id in dolor.
 						</p>
 					</div>
-					<a href="#" class="button is-medium is-primary">Chat with us!</a>
+					<a href="#" class="button is-medium is-primary drift">View services</a>
 				</div>
 				<div class="column">
 					<figure class="image home_feature-icon">
-						<img src="http://via.placeholder.com/512x512">
+						<img src="http://via.placeholder.com/512x512" alt="Lorem Ipsum">
 					</figure>
 					<div class="content">
 						<h3>
@@ -109,7 +124,7 @@
 							Quis eiusmod laboris dolor aliquip dolore aliquip incididunt sint dolore ad. Id in dolor.
 						</p>
 					</div>
-					<a href="#" class="button is-medium is-primary">Chat with us!</a>
+					<a href="#" class="button is-medium is-primary drift">View pricing</a>
 				</div>
 			</div>
 		</div>
@@ -119,18 +134,21 @@
 			<div class="columns">
 				<div class="column">
 					<figure class="image is-16by9 home_testimonial-video">
-						<img src="http://via.placeholder.com/640x360">
+						<img src="http://via.placeholder.com/640x360" alt="Lorem Ipsum">
 					</figure>
+					<span><strong>Jane Doe</strong>, Actress</span>
 				</div>
 				<div class="column">
 					<figure class="image is-16by9 home_testimonial-video">
-						<img src="http://via.placeholder.com/640x360">
+						<img src="http://via.placeholder.com/640x360" alt="Lorem Ipsum">
 					</figure>
+					<span><strong>Jane Doe</strong>, Actress</span>
 				</div>
 				<div class="column">
 					<figure class="image is-16by9 home_testimonial-video">
-						<img src="http://via.placeholder.com/640x360">
+						<img src="http://via.placeholder.com/640x360" alt="Lorem Ipsum">
 					</figure>
+					<span><strong>Jane Doe</strong>, Actress</span>
 				</div>
 			</div>
 		</div>
@@ -140,7 +158,7 @@
 			<div class="columns">
 				<div class="column">
 					<h2 class="title">Tempor in aliquip adipisicing veniam ut do excepteur cillum id anim.</h2>
-					<a href="#" class="button is-white is-large has-text-primary">Chat with us!</a>
+					<a class="button is-white is-large has-text-primary drift">Chat with us!</a>
 				</div>
 			</div>
 		</div>
@@ -245,7 +263,7 @@
 					<div class="column">
 						<div class="footer-content">
 							<div class="footer-menu">
-								<a href="#" class="button is-medium is-primary is-outlined">Chat with us!</a>
+								<a class="button is-medium is-primary is-outlined drift">Chat with us!</a>
 								<a href="#" class="button is-medium is-text is-inverted">Services</a>
 								<div class="separator"></div>
 								<a href="#" class="button is-medium is-text is-inverted">Testimonials</a>
@@ -257,15 +275,16 @@
 							<div class="footer-brand">
 								<div>
 									<span>LaMariée</span>
-									<span>|</span>
-									<span>50 Nanyang Ave, Singapore 639798</span>
+									<span class="is-hidden-mobile">|</span>
+									<span class="is-nowrap">50 Nanyang Ave,</span>
+									<span class="is-nowrap">Singapore 639798</span>
 								</div>
 								<div>
 									<a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
 									<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
 									<a href="#"><i class="fa fa-medium" aria-hidden="true"></i></a>
 									<a href="mailto:info@lamariee.com">info@lamariee.com</a>
-									<a href="tel:+6596374039">+65 9637 4039</a>
+									<a href="tel:+6596374039" class="is-nowrap">+65 9637 4039</a>
 								</div>
 							</div>
 						</div>
@@ -286,29 +305,40 @@
 			</div>
 		</div>
 	</footer>
-</body>
+	<script type="text/javascript" src="./static/js/main.js"></script>
+	<!--Start of Zendesk Chat Script-->
+	<!-- <script type="text/javascript">
+	window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
+	d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
+	_.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute("charset","utf-8");
+	$.src="https://v2.zopim.com/?4ISJgxEzYwOfNd5nFpZgpn9hUmlIteGx";z.t=+new Date;$.
+	type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
+	</script> -->
+	<!--End of Zendesk Chat Script-->
 	<!-- Start of Async Drift Code -->
 	<script>
-	!function() {
-		var t;
-		if (t = window.driftt = window.drift = window.driftt || [], !t.init) return t.invoked ? void (window.console && console.error && console.error("Drift snippet included twice.")) : (t.invoked = !0, 
-		t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
-		t.factory = function(e) {
-			return function() {
-				var n;
-				return n = Array.prototype.slice.call(arguments), n.unshift(e), t.push(n), t;
-			};
-		}, t.methods.forEach(function(e) {
-			t[e] = t.factory(e);
-		}), t.load = function(t) {
-			var e, n, o, i;
-			e = 3e5, i = Math.ceil(new Date() / e) * e, o = document.createElement("script"), 
-			o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + i + "/" + t + ".js", 
-			n = document.getElementsByTagName("script")[0], n.parentNode.insertBefore(o, n);
-		});
-	}();
-	drift.SNIPPET_VERSION = '0.3.1';
-	drift.load('uawdy669pkxd');
+		!function() {
+			var t;
+			if (t = window.driftt = window.drift = window.driftt || [], !t.init) return t.invoked ? void (window.console && console.error && console.error("Drift snippet included twice.")) : (t.invoked = !0, 
+			t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+			t.factory = function(e) {
+				return function() {
+					var n;
+					return n = Array.prototype.slice.call(arguments), n.unshift(e), t.push(n), t;
+				};
+			}, t.methods.forEach(function(e) {
+				t[e] = t.factory(e);
+			}), t.load = function(t) {
+				var e, n, o, i;
+				e = 3e5, i = Math.ceil(new Date() / e) * e, o = document.createElement("script"), 
+				o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + i + "/" + t + ".js", 
+				n = document.getElementsByTagName("script")[0], n.parentNode.insertBefore(o, n);
+			});
+		}();
+		drift.SNIPPET_VERSION = '0.3.1';
 	</script>
 	<!-- End of Async Drift Code -->
+	<!-- Load Drift scripts -->
+	<script type="text/javascript" src="./static/js/drift.js"></script>
+</body>
 </html>

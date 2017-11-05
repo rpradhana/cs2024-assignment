@@ -19,9 +19,3 @@
 .debug:not(.h):not(.d).f * {
 	background-color: rgba(0,17,34,0.05);
 }
-
-.hero-custom {
-	height: 100vh;
-	justify-content: center;
-	background: src('http://via.placeholder.com/');
-}

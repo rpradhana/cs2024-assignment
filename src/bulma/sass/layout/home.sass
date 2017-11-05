@@ -1,17 +1,36 @@
 .home_hero
 	// background: url('http://via.placeholder.com/1920x1080')
-	background-position: center
 	size: cover
+	+touch
+		&::before
+			content: ""
+			background: url('../images/hero.png') center center no-repeat !important
+			position: absolute
+			width: 100%
+			height: 100%
+			margin-left: -1rem
+			opacity: 0.5
 
-.home_hero-title
-	font-size: 4rem !important
-	color: $black-ter !important
-	line-height: 1.25em !important
-	+mobile
+.home_hero-content
+	display: flex !important
+	flex-direction: column !important
+	align-items: flex-start !important
+	justify-content: center !important
+	+touch
+		width: 100% !important
+		text-align: center !important
+		align-items: center !important
+	*
+		z-index: 100
+	.title
+		font-size: 4rem !important
+		color: $black-ter !important
 		line-height: 1.25em !important
-	+fullhd
-		font-size: 5rem !important
-		line-height: 1.25em !important
+		+mobile
+			line-height: 1.25em !important
+		+fullhd
+			font-size: 5rem !important
+			line-height: 1.25em !important
 
 .home_feature
 	padding-top: 5rem
@@ -25,6 +44,7 @@
 .home_testimonial-video
 	margin-left: auto
 	margin-right: auto
+	margin-bottom: $size-4
 	img
 		border-radius: $radius-xlarge
 

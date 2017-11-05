@@ -306,6 +306,18 @@ a.navbar-item,
 // Override
 .navbar-brand
 	align-items: center
+	+tablet
+		padding-left: 1rem
+		position: absolute
+		z-index: -1
+	+mobile
+		padding-left: 1rem
+		position: absolute
+		z-index: -1
+	+desktop
+		padding-left: 1rem
+		position: absolute
+		z-index: -1
 
 .navbar
 	position: fixed
@@ -313,3 +325,13 @@ a.navbar-item,
 	z-index: 10001
 	+box-shadow(0 0px 4px 0 transparentize($black, 0.85))
 	transition: all 0.5s ease;
+
+.navbar-burger
+	position: fixed
+	right: 0
+	z-index: 99999
+	border: none
+	&:focus,
+	&:active
+		box-shadow: none !important
+		background: none

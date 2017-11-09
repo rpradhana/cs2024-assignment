@@ -2,17 +2,21 @@
 <html lang="en">
 <head>
 	<title>Planner</title>
-  	<meta charset="utf-8">
-  	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-  	<meta name="viewport" content="width=device-width, initial-scale=1">
-  	<meta name="description" content="Aliquip exercitation do esse sit consequat non minim in incididunt.">
-	<link rel="icon" type="image/png"  href="../static/images/favicon.png">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Aliquip exercitation do esse sit consequat non minim in incididunt.">
+	<link rel="icon" type="image/png"  href="./static/images/favicon.png">
 	<link rel="stylesheet" type="text/css" href="./static/css/style.css">
-	<link rel="stylesheet" type="text/css" href="./static/css/override.css">
+	<link rel="stylesheet" type="text/css" href="./static/css/service.css">
 	<script src="https://use.fontawesome.com/4ae5ce3b8a.js"></script>
+	<script type="text/javascript" src="./static/js/jquery.min.js"></script>
+	<script type="text/javascript" src="./static/js/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="./static/js/service.js"></script>
+	<script type="text/javascript">
+	</script>
 </head>
-
-<body class="debug o h d">
+<body class="debug o h">
 	<div class="drift-fab">
 		<a class="drift">
 			<span class="icon">
@@ -25,7 +29,7 @@
 		<div class="container">
 			<div class="navbar-brand">
 				<a href="#">
-					<img id="logo-primary" src="../static/images/lamariee.svg" class="is-flex" alt="LaMariée">
+					<img id="logo-primary" src="./static/images/lamariee.svg" class="is-flex" alt="LaMariée">
 				</a>
 			</div>
 			<button class="button navbar-burger" data-target="navMenu">
@@ -73,43 +77,37 @@
 			</div>
 		</div>
 	</section>
-	<section class="hero is-primary has-text-centered">
+	<section class="sub-category hero is-primary has-text-centered">
 		<div class="hero-body">
-			<div class="container">
-			<nav class="tabs is-fullwidth" style="overflow: -moz-scrollbars-none;">
-  				<ul>
-    				<li class="is-active"><a href="service/planner.html">Planner&amp;Organiser</a></li>
-    				<li><a href="service/suit.html">Suit&amp;Gown</a></li>
-    				<li><a href="service/cake.html">Cake</a></li>
-    				<li><a href="service/flower.html">Flower&amp;Decorations</a></li>
-
-    				<li><a href="service/venue.html">Venue&amp;Catering</a></li>
-    				<li><a href="service/photo.html">Photo&amp;Video</a></li>
-    				<li><a href="service/invitation.html">Invitation</a></li>
-    				<li><a href="service/makeup.html">Makeup&amp;Hairstyling</a></li>
-    				<li><a href="service/entertainment.html">Entertainment</a></li>
-  				</ul>
-			</nav>
+			<!-- Sub-category: Mobile -->
+			<div class="container sub-category__container is-hidden-tablet">
+				<div class="sub-category__tabs is-draggable">
+					<a class="button is-primary is-medium is-active" href="service/suit.html">Suit &amp; Gown</a>
+					<a class="button is-primary is-medium" href="service/cake.html">Cake</a>
+					<a class="button is-primary is-medium" href="service/flower.html">Flower &amp; Decorations</a>
+					<a class="button is-primary is-medium" href="service/venue.html">Venue &amp; Catering</a>
+					<a class="button is-primary is-medium" href="service/photo.html">Photo &amp; Video</a>
+					<a class="button is-primary is-medium" href="service/invitation.html">Invitation</a>
+					<a class="button is-primary is-medium" href="service/makeup.html">Makeup &amp; Hairstyling</a>
+					<a class="button is-primary is-medium" href="service/entertainment.html">Entertainment</a>
+				</div>
+			</div>
+			<!-- Sub-category: Tablet above -->
+			<div class="container sub-category__container is-hidden-mobile">
+				<div class="sub-category__tabs">
+					<a class="button is-primary is-medium is-active" href="service/suit.html">Suit &amp; Gown</a>
+					<a class="button is-primary is-medium" href="service/cake.html">Cake</a>
+					<a class="button is-primary is-medium" href="service/flower.html">Flower &amp; Decorations</a>
+					<a class="button is-primary is-medium" href="service/venue.html">Venue &amp; Catering</a>
+					<a class="button is-primary is-medium" href="service/photo.html">Photo &amp; Video</a>
+					<a class="button is-primary is-medium" href="service/invitation.html">Invitation</a>
+					<a class="button is-primary is-medium" href="service/makeup.html">Makeup &amp; Hairstyling</a>
+					<a class="button is-primary is-medium" href="service/entertainment.html">Entertainment</a>
+				</div>
 			</div>
 		</div>
 	</section>
-	<!--Jumbotron
-	<div class="jumbotron">
-		<div class="container text-left">
-			<div class="row align-items-center">
-				<div class="col-md-6 offset-md-3">
-					<h1>The best of the best.</h1>
-					<h1>Just for you!</h1>
-					<br>
-					<br>
-					<p>Cheesecake muffin I love .....</p>			
-				</div>
-			</div>	
-		</div>
-	</div>
-	-->
 	<section class="hero is-white is-fullheight">
-
 		<div class="hero-header container content">
 			<h1>Wedding cillum id anim.</h1>
 			<p> wedding is good  wedding is good  wedding is good  wedding is good  wedding is good </p>		
@@ -123,9 +121,7 @@
 					<h1>Plan1</h1>
 					<p>wedding is good  wedding is good  wedding is good  wedding is good  wedding is good wedding is good  wedding is good  wedding is good  wedding is good  wedding is good </p>
 				</div>
-				
 			</div>
-			
 		</div>
 		<div class="hero-body container">
 			<div class="columns is-4">
@@ -136,9 +132,7 @@
 					<h1>Plan2</h1>
 					<p>wedding is good  wedding is good  wedding is good  wedding is good  wedding is good wedding is good  wedding is good  wedding is good  wedding is good  wedding is good </p>
 				</div>
-				
 			</div>
-			
 		</div>
 	</section>
 	<section class="hero hero-cta is-primary has-text-centered">
@@ -200,7 +194,7 @@
 			</div>
 		</div>
 	</footer>
-<script type="text/javascript" src="../static/js/main.js"></script>
+	<script type="text/javascript" src="./static/js/main.js"></script>
 	<!--Start of Zendesk Chat Script-->
 	<!-- <script type="text/javascript">
 	window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
@@ -235,7 +229,7 @@
 	<!-- End of Async Drift Code -->
 
 	<!-- Load Drift scripts -->
-	<script type="text/javascript" src="../static/js/drift.js"></script>
+	<script type="text/javascript" src="./static/js/drift.js"></script>
 
 	<!-- Start of Async Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26250364-4"></script>

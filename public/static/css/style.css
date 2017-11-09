@@ -4959,9 +4959,19 @@ a.navbar-item:hover, a.navbar-item.is-active,
     background-color: white;
     -webkit-box-shadow: 0 8px 16px rgba(10, 10, 10, 0.1);
     box-shadow: 0 8px 16px rgba(10, 10, 10, 0.1);
-    padding: 0.5rem 0; }
+    padding: 0.5rem 0 !important; }
     .navbar-menu.is-active {
-      display: block; } }
+      display: block; }
+      .navbar-menu.is-active .navbar-item {
+        padding-top: 0;
+        padding-bottom: 0; }
+        .navbar-menu.is-active .navbar-item a {
+          width: 100%;
+          -webkit-box-pack: start;
+          -ms-flex-pack: start;
+          justify-content: flex-start; }
+        .navbar-menu.is-active .navbar-item:nth-of-type(1) a {
+          width: calc(100% - 3rem) !important; } }
 
 @media screen and (min-width: 1024px) {
   .navbar,

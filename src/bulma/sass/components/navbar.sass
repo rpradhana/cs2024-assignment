@@ -181,9 +181,18 @@ a.navbar-item,
 	.navbar-menu
 		background-color: $white
 		box-shadow: 0 8px 16px rgba($black, 0.1)
-		padding: 0.5rem 0
+		padding: 0.5rem 0 !important
 		&.is-active
 			display: block
+			.navbar-item
+				padding-top: 0
+				padding-bottom: 0
+				a
+					width: 100%
+					justify-content: flex-start
+				&:nth-of-type(1)
+					a
+						width: calc(100% - 3rem) !important
 
 +desktop
 	.navbar,

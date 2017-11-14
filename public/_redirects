@@ -2,9 +2,8 @@
 /home              /
 /index.html        /
 /index             /
-/services                     /services/planner
-/services/                    /services/planner
-/services.html                /services/planner
+/services/                    /services
+/services.html                /services
 /services/planner.html        /services/planner
 /services/suit.html           /services/suit
 /services/cake.html           /services/cake
@@ -22,3 +21,5 @@
 /privacy-policy/        /privacy-policy
 /terms-conditions.html  /terms-conditions
 /terms-conditions/      /terms-conditions
+/presentation/     /presentation
+/presentation.html /presentation

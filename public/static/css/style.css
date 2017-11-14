@@ -3830,6 +3830,9 @@ a.tag:hover {
 .card .media:not(:last-child) {
   margin-bottom: 0.75rem; }
 
+.card.is-fullheight {
+  height: 100%; }
+
 .dropdown {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;

@@ -5,8 +5,8 @@
 	display: flex
 	flex-direction: column
 	justify-content: space-between
-	padding-left: $size-6
-	padding-right: $size-6
+	padding-left: $size-4
+	padding-right: $size-4
 	.navbar
 		background: none
 	.tabs
@@ -112,7 +112,9 @@
 	&.is-halfheight
 		min-height: 50vh
 	&.is-fullheight
-		min-height: 100vh
+		min-height: calc( 100vh - 58px )
+		+touch
+			min-height: calc( 100vh - 52px )
 
 // Components
 
@@ -164,6 +166,9 @@
 	padding-top: 4rem
 	padding-bottom: 4rem
 	font-size: $size-3
+	.subtitle
+		font-size: $size-6 !important
+		margin-top: 0.25rem !important
 
 .hero-image
 	max-height: 80vh
@@ -173,3 +178,8 @@
 		right: 50%
 		top: 50%
 		transform: translateY(-50%)
+
+.hero:not(.is-primary)
+	.title,
+	.subtitle
+		color: #242424 !important

@@ -1,17 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Aliquip exercitation do esse sit consequat non minim in incididunt.">
-	<!-- <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/> -->
-	<!-- <meta http-equiv="Pragma" content="no-cache"/> -->
-	<!-- <meta http-equiv="Expires" content="0"/> -->
-	<title>LaMariée</title>
+	<title>LaMariee</title>
 	<link rel="icon" type="image/png"  href="./static/images/favicon.png">
 	<link rel="stylesheet" type="text/css" href="./static/css/style.css">
-	<link rel="stylesheet" type="text/css" href="./static/css/override.css">
+	<script src="https://use.fontawesome.com/4ae5ce3b8a.js"></script>
+	<!-- Facebook Pixel Code -->
+	<script>
+		!function(f,b,e,v,n,t,s)
+		{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+		n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+		if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+		n.queue=[];t=b.createElement(e);t.async=!0;
+		t.src=v;s=b.getElementsByTagName(e)[0];
+		s.parentNode.insertBefore(t,s)}(window, document,'script',
+		'https://connect.facebook.net/en_US/fbevents.js');
+		fbq('init', '1869951296652292');
+		fbq('track', 'PageView');
+	</script>
+	<noscript><img height="1" width="1" style="display:none"
+		src="https://www.facebook.com/tr?id=1869951296652292&ev=PageView&noscript=1"
+	/></noscript>
+	<!-- End Facebook Pixel Code -->
+	<!-- Start of Async Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26250364-4"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-26250364-4');
+	</script>
+	<!-- End of Async Google Analytics -->
 </head>
 <body class="debug o h d">
 	<div class="drift-fab">
@@ -24,8 +48,8 @@
 	<nav class="navbar is-white shadow-is-hidden" role="navigation" aria-label="main navigation">
 		<div class="container">
 			<div class="navbar-brand">
-				<a href="#">
-					<img id="logo-primary" src="./static/images/lamariee.svg" class="is-flex" alt="LaMariée">
+				<a href="./index.html">
+					<img id="logo-primary" src="./static/images/lamariee.svg" class="is-flex" alt="LaMariee">
 				</a>
 			</div>
 			<button class="button navbar-burger" data-target="navMenu">
@@ -36,16 +60,16 @@
 			<div id="navMenu" class="navbar-menu">
 				<div class="navbar-end">
 					<div class="navbar-item">
-						<a href="#" class="button is-medium is-white">Services</a>
+						<a href="./services.html" class="button is-medium is-white">Services</a>
 					</div>
 					<div class="navbar-item">
-						<a href="#" class="button is-medium is-white">Testimonials</a>
+						<a href="https://medium.com/lamariee" target="_blank" class="button is-medium is-white">Testimonials</a>
 					</div>
 					<div class="navbar-item">
-						<a href="#" class="button is-medium is-white">Pricing</a>
+						<a href="./pricing.html" class="button is-medium is-white">Pricing</a>
 					</div>
 					<div class="navbar-item">
-						<a href="#" class="button is-medium is-white">About Us</a>
+						<a href="./about.html" class="button is-medium is-white">About Us</a>
 					</div>
 					<div class="navbar-item is-hidden-touch">
 						<a class="button is-medium is-medium is-primary is-outlined drift">Chat with us!</a>
@@ -54,6 +78,7 @@
 			</div>
 		</div>
 	</nav>
+	<div class="fixer--navbar"></div>
 	<section class="hero home_hero is-white is-fullheight">
 		<div class="hero-body">
 			<div class="container">
@@ -63,8 +88,11 @@
 					</div>
 					<div class="column is-half home_hero-content">
 						<h1 class="title">
-							Arrange your dream wedding.
+							Design your dream wedding.
 						</h1>
+						<p class="subtitle">
+							Your happily ever after starts with a perfect plan.
+						</p>
 						<a class="button is-primary is-large drift">Chat with us!</a>
 					</div>
 				</div>
@@ -75,7 +103,7 @@
 		<div class="hero-body">
 			<div class="container">
 				<h2 class="title">
-					Duis ut incididunt officia fugiat nostrud anim deserunt mollit.
+					Every love story deserves a happy journey. Yours begins with us.
 				</h2>
 			</div>
 		</div>
@@ -85,42 +113,42 @@
 			<div class="columns">
 				<div class="column">
 					<figure class="image home_feature-icon">
-						<img src="http://via.placeholder.com/512x512" alt="Lorem Ipsum">
+						<img src="./static/images/feature-planner.png" alt="Planner.">
 					</figure>
 					<div class="content">
 						<h3>
-							Lorem Ipsum
+							The planner you need.
 						</h3>
 						<p>
-							Quis eiusmod laboris dolor aliquip dolore aliquip incididunt sint dolore ad. Id in dolor.
+							Our dedicated planners work tirelessly so that you can enjoy every step of the journey without any stress, because you deserve it.
 						</p>
 					</div>
 					<a class="button is-medium is-primary drift">Chat with us!</a>
 				</div>
 				<div class="column">
 					<figure class="image home_feature-icon">
-						<img src="http://via.placeholder.com/512x512" alt="Lorem Ipsum">
+						<img src="./static/images/feature-services.png" alt="Premium services">
 					</figure>
 					<div class="content">
 						<h3>
-							Lorem Ipsum
+							Curated premium services.
 						</h3>
 						<p>
-							Quis eiusmod laboris dolor aliquip dolore aliquip incididunt sint dolore ad. Id in dolor.
+							LaMariee carefully selects only the very best partners to ensure that you get the quality assurance you deserve.
 						</p>
 					</div>
 					<a href="#" class="button is-medium is-primary drift">View services</a>
 				</div>
 				<div class="column">
 					<figure class="image home_feature-icon">
-						<img src="http://via.placeholder.com/512x512" alt="Lorem Ipsum">
+						<img src="./static/images/feature-deals.png" alt="Best deals">
 					</figure>
 					<div class="content">
 						<h3>
-							Lorem Ipsum
+							Best deals guaranteed.
 						</h3>
 						<p>
-							Quis eiusmod laboris dolor aliquip dolore aliquip incididunt sint dolore ad. Id in dolor.
+							Our unique pricing structure and exclusive partnerships allows us to offer superior prices when you plan with LaMariee.
 						</p>
 					</div>
 					<a href="#" class="button is-medium is-primary drift">View pricing</a>
@@ -132,22 +160,40 @@
 		<div class="container">
 			<div class="columns">
 				<div class="column">
-					<figure class="image is-16by9 home_testimonial-video">
-						<img src="http://via.placeholder.com/640x360" alt="Lorem Ipsum">
+					<figure class="image home_testimonial-video">
+						<video id="testimonial1" poster="./static/videos/Jade-Seah-Wedding-The-Beginning.png">
+							<source src="./static/videos/Jade-Seah-Wedding-The-Beginning.mp4"
+							        type="video/mp4">
+							<source src="./static/videos/Jade-Seah-Wedding-The-Beginning.webm"
+							        type="video/webm">
+						</video>
+						<div class="video-overlay"></div>
 					</figure>
-					<span><strong>Jane Doe</strong>, Actress</span>
+					<span><strong>Jade Seah</strong>, Public Influencer</span>
 				</div>
 				<div class="column">
-					<figure class="image is-16by9 home_testimonial-video">
-						<img src="http://via.placeholder.com/640x360" alt="Lorem Ipsum">
+					<figure class="image home_testimonial-video">
+						<video id="testimonial2" poster="./static/videos/60-seconds-with-Jesseca-Liu.png">
+							<source src="./static/videos/60-seconds-with-Jesseca-Liu.mp4"
+							        type="video/mp4">
+							<source src="./static/videos/60-seconds-with-Jesseca-Liu.webm"
+							        type="video/webm">
+						</video>
+						<div class="video-overlay"></div>
 					</figure>
-					<span><strong>Jane Doe</strong>, Actress</span>
+					<span><strong>Jesseca Liu</strong>, Actress</span>
 				</div>
 				<div class="column">
-					<figure class="image is-16by9 home_testimonial-video">
-						<img src="http://via.placeholder.com/640x360" alt="Lorem Ipsum">
+					<figure class="image home_testimonial-video">
+						<video id="testimonial3" poster="./static/videos/Jesseca-Liu-Jeremy-Chan-pre-wedding-Bhutan-shoot.png">
+							<source src="./static/videos/Jesseca-Liu-Jeremy-Chan-pre-wedding-Bhutan-shoot.mp4"
+							        type="video/mp4">
+							<source src="./static/videos/Jesseca-Liu-Jeremy-Chan-pre-wedding-Bhutan-shoot.webm"
+							        type="video/webm">
+						</video>
+						<div class="video-overlay"></div>
 					</figure>
-					<span><strong>Jane Doe</strong>, Actress</span>
+					<span><strong>Christabel Chua</strong>, Fashion Blogger</span>
 				</div>
 			</div>
 		</div>
@@ -156,7 +202,7 @@
 		<div class="container">
 			<div class="columns">
 				<div class="column">
-					<h2 class="title">Tempor in aliquip adipisicing veniam ut do excepteur cillum id anim.</h2>
+					<h2 class="title">Now is your turn. Make your dream wedding come true.</h2>
 					<a class="button is-white is-large has-text-primary drift">Chat with us!</a>
 				</div>
 			</div>
@@ -168,24 +214,18 @@
 				<div class="column">
 					<div class="card">
 						<div class="card-content">
-							<div class="media">
+							<div class="media story__header">
 								<div class="media-left">
 									<figure class="image is-48x48 is-circle">
-										<img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+										<img src="./static/images/story-1.png" alt="Story 1">
 									</figure>
 								</div>
 								<div class="media-content">
-									<p class="is-4">John Smith</p>
-									<p class="subtitle is-6">@johnsmith</p>
+									<p class="is-4">Jane &amp; John</p>
 								</div>
 							</div>
-
 							<div class="content">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-								Phasellus nec iaculis mauris. <a>@bulmaio</a>.
-								<a href="#">#css</a> <a href="#">#responsive</a>
-								<br>
-								<time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+								Amazing! We couldn't have done it without LaMariee. They were available at all hours and helped us to create our vision. Supported and lead us every step...
 							</div>
 						</div>
 					</div>
@@ -193,24 +233,18 @@
 				<div class="column">
 					<div class="card">
 						<div class="card-content">
-							<div class="media">
+							<div class="media story__header">
 								<div class="media-left">
 									<figure class="image is-48x48 is-circle">
-										<img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+										<img src="./static/images/story-2.png" alt="Story 2">
 									</figure>
 								</div>
 								<div class="media-content">
-									<p class="is-4">John Smith</p>
-									<p class="subtitle is-6">@johnsmith</p>
+									<p class="is-4">Ann &amp; Andy</p>
 								</div>
 							</div>
-
 							<div class="content">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-								Phasellus nec iaculis mauris. <a>@bulmaio</a>.
-								<a href="#">#css</a> <a href="#">#responsive</a>
-								<br>
-								<time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+								We had the best day of our life! Everything had been thought of and executed to perfection. LaMariee provided such a high level of service an...
 							</div>
 						</div>
 					</div>
@@ -218,24 +252,77 @@
 				<div class="column">
 					<div class="card">
 						<div class="card-content">
-							<div class="media">
+							<div class="media story__header">
 								<div class="media-left">
 									<figure class="image is-48x48 is-circle">
-										<img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+										<img src="./static/images/story-3.png" alt="Story 3">
 									</figure>
 								</div>
 								<div class="media-content">
-									<p class="is-4">John Smith</p>
-									<p class="subtitle is-6">@johnsmith</p>
+									<p class="is-4">Beth &amp; Bob</p>
 								</div>
 							</div>
-
 							<div class="content">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-								Phasellus nec iaculis mauris. <a>@bulmaio</a>.
-								<a href="#">#css</a> <a href="#">#responsive</a>
-								<br>
-								<time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+								The folks at LaMariee are amazing. They eliminated any anxiety or stress throughout the planning phase allowing us to enjoy every bit of our wedding!
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="columns is-hidden-mobile">
+				<div class="column">
+					<div class="card">
+						<div class="card-content">
+							<div class="media story__header">
+								<div class="media-left">
+									<figure class="image is-48x48 is-circle">
+										<img src="./static/images/story-4.png" alt="Story 4">
+									</figure>
+								</div>
+								<div class="media-content">
+									<p class="is-4">Chloe &amp; Charles</p>
+								</div>
+							</div>
+							<div class="content">
+								Hiring LaMariee as our organiser was the best decision we could have made, they truly went above and beyond to make everything we could have wanted happe...
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="column">
+					<div class="card">
+						<div class="card-content">
+							<div class="media story__header">
+								<div class="media-left">
+									<figure class="image is-48x48 is-circle">
+										<img src="./static/images/story-5.png" alt="Story 5">
+									</figure>
+								</div>
+								<div class="media-content">
+									<p class="is-4">Daisy &amp; Danny</p>
+								</div>
+							</div>
+							<div class="content">
+								Only one word can sum up my experience with LaMariee and that was brilliant! The ease that their service provides is absolutely amazing! Thank you!
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="column">
+					<div class="card">
+						<div class="card-content">
+							<div class="media story__header">
+								<div class="media-left">
+									<figure class="image is-48x48 is-circle">
+										<img src="./static/images/story-6.png" alt="Story 6">
+									</figure>
+								</div>
+								<div class="media-content">
+									<p class="is-4">Ellen &amp; Elliot</p>
+								</div>
+							</div>
+							<div class="content">
+								LaMariee is the organiser we never knew we needed. They took our thoughts and ideas and gave us something even better than we could have ever imagined.
 							</div>
 						</div>
 					</div>
@@ -243,7 +330,7 @@
 			</div>
 			<div class="columns">
 				<div class="column has-text-centered">
-					<a href="#" class="button is-medium is-primary button-love">
+					<a href="https://medium.com/lamariee" class="button is-medium is-primary button-love">
 						<span>
 							View more love
 						</span>
@@ -263,27 +350,27 @@
 						<div class="footer-content">
 							<div class="footer-menu">
 								<a class="button is-medium is-primary is-outlined drift">Chat with us!</a>
-								<a href="#" class="button is-medium is-text is-inverted">Services</a>
+								<a href="./services.html" class="button is-medium is-text is-inverted">Services</a>
 								<div class="separator"></div>
-								<a href="#" class="button is-medium is-text is-inverted">Testimonials</a>
+								<a href="https://medium.com/lamariee" class="button is-medium is-text is-inverted">Testimonials</a>
 								<div class="separator"></div>
-								<a href="#" class="button is-medium is-text is-inverted">Pricing</a>
+								<a href="./pricing.html" class="button is-medium is-text is-inverted">Pricing</a>
 								<div class="separator"></div>
-								<a href="#" class="button is-medium is-text is-inverted">About Us</a>
+								<a href="./about.html" class="button is-medium is-text is-inverted">About Us</a>
 							</div>
 							<div class="footer-brand">
 								<div>
-									<span>LaMariée</span>
+									<span>LaMariee</span>
 									<span class="is-hidden-mobile">|</span>
 									<span class="is-nowrap">50 Nanyang Ave,</span>
 									<span class="is-nowrap">Singapore 639798</span>
 								</div>
 								<div>
-									<a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-									<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-									<a href="#"><i class="fa fa-medium" aria-hidden="true"></i></a>
-									<a href="mailto:info@lamariee.com">info@lamariee.com</a>
-									<a href="tel:+6596374039" class="is-nowrap">+65 9637 4039</a>
+									<a href="https://www.facebook.com/pg/LaMariee-1991339891078374" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+									<a href="https://twitter.com/lamariee_cs024" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+									<a href="https://medium.com/lamariee" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a>
+									<a href="mailto:support@lamariee.com.sg">support@lamariee.com.sg</a>
+									<a href="tel:+6598765432" class="is-nowrap">+65 9876 5432</a>
 								</div>
 							</div>
 						</div>
@@ -296,8 +383,9 @@
 				<div class="columns">
 					<div class="column">
 						<div class="sub-footer-content">
-							<a href="#" class="button is-small is-text is-inverted">Privacy Policy</a>
-							<a href="#" class="button is-small is-text is-inverted">&copy; LaMariée 2017</a>
+							<a href="./privacy-policy.html" class="button is-small is-text is-inverted">Privacy Policy</a>
+							<a href="./terms-conditions.html" class="button is-small is-text is-inverted">Terms &amp; Conditions</a>
+							<a href="./index.html" class="button is-small is-text is-inverted">&copy; LaMariee 2017</a>
 						</div>
 					</div>
 				</div>
@@ -306,18 +394,7 @@
 	</footer>
 
 	<script type="text/javascript" src="./static/js/jquery.min.js"></script>
-	<script src="https://use.fontawesome.com/4ae5ce3b8a.js"></script>
 	<script type="text/javascript" src="./static/js/main.js"></script>
-	<!--Start of Zendesk Chat Script-->
-	<!-- <script type="text/javascript">
-	window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
-	d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
-	_.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute("charset","utf-8");
-	$.src="https://v2.zopim.com/?4ISJgxEzYwOfNd5nFpZgpn9hUmlIteGx";z.t=+new Date;$.
-	type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
-	</script> -->
-	<!--End of Zendesk Chat Script-->
-	<!-- Start of Async Drift Code -->
 	<script>
 		!function() {
 			var t;
@@ -343,17 +420,5 @@
 
 	<!-- Load Drift scripts -->
 	<script type="text/javascript" src="./static/js/drift.js"></script>
-
-	<!-- Start of Async Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26250364-4"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
-
-		gtag('config', 'UA-26250364-4');
-	</script>
-	<!-- End of Async Google Analytics -->
-
 </body>
 </html>

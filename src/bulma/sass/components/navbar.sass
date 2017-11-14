@@ -318,21 +318,21 @@ a.navbar-item,
 	+tablet
 		padding-left: 1rem
 		position: absolute
-		z-index: -1
+		z-index: 1
 	+mobile
 		padding-left: 1rem
 		position: absolute
-		z-index: -1
+		z-index: 1
 	+desktop
 		padding-left: 1rem
 		position: absolute
-		z-index: -1
+		z-index: 1
 
 .navbar
 	position: fixed
 	width: 100%
 	z-index: 10001
-	+box-shadow(0 0px 4px 0 transparentize($black, 0.85))
+	+box-shadow(0 0px 4px 0 transparentize($black, 0.75))
 	transition: all 0.5s ease;
 
 .navbar-burger
@@ -344,3 +344,10 @@ a.navbar-item,
 	&:active
 		box-shadow: none !important
 		background: none
+	&:hover,
+	&:focus
+		color: inherit !important
+
+.navbar-menu
+	&.is-active *
+		z-index: 100

@@ -7,6 +7,7 @@
 	background: $primary
 	height: 3rem
 	width: 3rem
+	cursor: pointer
 	+box-shadow(0 2px 4px 1px transparentize($black, 0.75))
 	+desktop
 		display: none
@@ -14,3 +15,25 @@
 		position: absolute
 		color: $white !important
 		transform: translate(50%, 50%)
+		cursor: pointer
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+			user-select: none;
+
+.fixer--navbar
+	height: 58px !important
+	+touch
+		height: 52px !important
+
+.fixer--sub-category
+	height: 58px !important
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+	color: #242424

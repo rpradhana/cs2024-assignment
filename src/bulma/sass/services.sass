@@ -1,0 +1,60 @@
+.ui-draggable-handle
+	-ms-touch-action: none
+	touch-action: none
+
+/**
+ * Custom CSS overrides
+ */
+
+.sub-category__container.is-hidden-tablet
+	display: flex
+	overflow: hidden
+	width: 100%
+
+
+.sub-category__tabs
+	padding-top: 0.5rem
+	padding-bottom: 0.5rem
+
+.sub-category__tabs.is-draggable
+	display: flex
+
+.sub-category
+	+mobile
+		position: fixed
+		+box-shadow(0 0px 4px 0 transparentize($black, 0.75))
+		z-index: 9999
+
+.main-services
+	padding-top: $size-1
+	padding-bottom: $size-2
+	+mobile
+		padding-left: 1.5rem
+		padding-right: 1.5rem
+
+.main-services__row
+	margin-bottom: 2rem !important
+	+mobile
+		margin-bottom: 1rem !important
+
+.main-services__grid
+	display: flex
+	flex-direction: column
+	padding-left: 1rem
+	padding-right: 1rem
+	+mobile
+		padding-top: 0.5rem
+		padding-bottom: 0.5rem
+
+.main-services__image
+	border-top-right-radius: 4px
+	border-top-left-radius: 4px
+	width: 100%
+	height: auto
+	+mobile
+		display: none
+
+.main-services__button
+	+tablet
+		border-top-right-radius: 0 !important
+		border-top-left-radius: 0 !important

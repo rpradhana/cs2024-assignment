@@ -1,3 +1,24 @@
 # Redirects from what the browser requests to what we serve
 /home              /
 /index.html        /
+/index             /
+/services                     /services/planner
+/services/                    /services/planner
+/services.html                /services/planner
+/services/planner.html        /services/planner
+/services/suit.html           /services/suit
+/services/cake.html           /services/cake
+/services/flower.html         /services/flower
+/services/venue.html          /services/venue
+/services/photo.html          /services/photo
+/services/invitation.html     /services/invitation
+/services/makeup.html         /services/makeup
+/services/entertainment.html  /services/entertainment
+/about.html             /about
+/about/                 /about
+/pricing.html           /pricing
+/pricing/               /pricing
+/privacy-policy.html    /privacy-policy
+/privacy-policy/        /privacy-policy
+/terms-conditions.html  /terms-conditions
+/terms-conditions/      /terms-conditions

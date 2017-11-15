@@ -7,7 +7,7 @@ const autoprefixer = require('gulp-autoprefixer');
 
 gulp.task('sass', function () {
 	return gulp.src('./src/bulma/bulma.sass')
-		.pipe(sass().on('error', sass.logError))
+		.pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
 		.pipe(rename('style.css'))
 		.pipe(autoprefixer({
 			browsers: ['last 2 versions'],

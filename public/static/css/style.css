@@ -7603,6 +7603,36 @@ h6 {
   .services__link i.fa {
     margin-right: 0.5rem; }
 
+.services__row .column {
+  margin-bottom: 2rem; }
+
+.hero--planner {
+  background: url("../images/services-planner/planner-header.png"); }
+
+.hero--suit-gown {
+  background: url("../images/services-suit-gown/suit-gown-header.png"); }
+
+.hero--flowers {
+  background: url("../images/services-flowers/flowers-header.png"); }
+
+.hero--cake {
+  background: url("../images/services-cake/cake-header.png"); }
+
+.hero--entertainment {
+  background: url("../images/services-entertainment/entertainment-header.png"); }
+
+.hero--makeup {
+  background: url("../images/services-makeup/makeup-header.png"); }
+
+.hero--invitation {
+  background: url("../images/services-invitation/invitation-header.png"); }
+
+.hero--photo {
+  background: url("../images/services-photo/photo-header.png"); }
+
+.hero--venue {
+  background: url("../images/services-venue/venue-header.png"); }
+
 .legal__content {
   padding-top: 3rem;
   padding-bottom: 3rem;

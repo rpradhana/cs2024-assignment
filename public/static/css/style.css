@@ -7560,6 +7560,14 @@ h6 {
   flex-direction: column;
   padding-left: 1rem;
   padding-right: 1rem; }
+  .main-services__grid a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
   @media screen and (max-width: 768px) {
     .main-services__grid {
       padding-top: 0.5rem;

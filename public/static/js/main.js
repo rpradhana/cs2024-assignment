@@ -13,14 +13,24 @@ var ready = function(fn) {
 }
 
 ready(function() {
-	attachClassToggle($('.dropdown'), 'is-active', 'click');
-	attachClassToggle($('.navbar-burger'), 'is-active', 'click');
+	if ($('.dropdown')) {
+		attachClassToggle($('.dropdown'), 'is-active', 'click');
+	}
+	if ($('.navbar-burger')) {
+		attachClassToggle($('.navbar-burger'), 'is-active', 'click');
+	}
 	// attachVideoControlToggle($('#testimonial1'));
 	// attachVideoControlToggle($('#testimonial2'));
 	// attachVideoControlToggle($('#testimonial3'));
-	attachVideoPlayer('#testimonial1');
-	attachVideoPlayer('#testimonial2');
-	attachVideoPlayer('#testimonial3');
+	if ($('#testimonial1')) {
+		attachVideoPlayer('#testimonial1');
+	}
+	if ($('#testimonial2')) {
+		attachVideoPlayer('#testimonial2');
+	}
+	if ($('#testimonial3')) {
+		attachVideoPlayer('#testimonial3');
+	}
 });
 
 

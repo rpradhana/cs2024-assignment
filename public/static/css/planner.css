@@ -1,0 +1,25 @@
+.topbox{
+	padding: 6rem 1.5rem;
+	background-image: url("http://via.placeholder.com/2000x675");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 60vh;
+}
+.main-header{
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+}
+.main-body{
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+}
+.main-body img{
+}
+.main-body .content{
+	position: relative;
+}
+.about__row {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}

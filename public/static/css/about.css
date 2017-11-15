@@ -1,0 +1,48 @@
+.topbox {
+	padding: 6rem 1.5rem;
+	background-image: url("../images/about.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.topbox .hero-body {
+	padding-top: 0.5rem;
+}
+.topbox h1 {
+	font-size: 3rem;
+	line-height: 1.125;
+}
+.topbox p { 
+	font-size: 1rem;
+	line-height: 1.125;
+}
+.main-body {
+	margin: 4rem 0rem;
+}
+
+.main-body p {
+
+}
+
+.mapbox {
+	// margin: 0rem;
+}
+.address {
+	padding: 4rem;
+}
+.address__content div {
+	margin-bottom: 0.5rem;
+}
+
+.address__content a {
+	color: #ff5a77; !important
+}
+.address__map {
+	background-color: #B5B5B5;
+	min-height: 16rem;
+	width: 100%;
+}
+.about__row {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}

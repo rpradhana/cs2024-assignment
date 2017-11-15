@@ -18,15 +18,15 @@
 		$color-invert: nth($pair, 2)
 		&.is-#{$name}
 			background-color: $color
-			color: $color-invert
-			a:not(.button),
-			strong
-				color: inherit
+			// color: $color-invert
+			// a:not(.button),
+			// strong
+			// 	color: inherit
 			.title
 				font-family: $family-emphasis
 				font-weight: $weight-normal
 				color: $color-invert
-				font-size: inherit
+				// font-size: inherit
 			.subtitle
 				color: rgba($color-invert, 0.9)
 				a:not(.button),
@@ -167,7 +167,7 @@
 	padding-bottom: 4rem
 	font-size: $size-3
 	.subtitle
-		font-size: $size-6 !important
+		font-size: $size-6
 		margin-top: 0.25rem !important
 
 .hero-image
@@ -182,4 +182,9 @@
 .hero:not(.is-primary)
 	.title,
 	.subtitle
-		color: #242424 !important
+		color: #242424
+
+.hero
+	.subtitle
+		font-size: 1.25rem
+		line-height: 1.5

@@ -13,6 +13,7 @@ $(function() {
 
 
 	draggable.on('drag', function(event, ui) {
+		console.log('DRAG!');
 		// Clamp scroll position within container edges
 		if(ui.offset.left > 0) {
 			ui.position.left = 0;

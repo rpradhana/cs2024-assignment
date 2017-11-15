@@ -6720,7 +6720,8 @@ label.panel-block {
     .hero.is-white .title {
       font-family: "Prata", serif;
       font-weight: 400;
-      color: #0a0a0a; }
+      color: #0a0a0a;
+      line-height: 1.5; }
     .hero.is-white .subtitle {
       color: rgba(10, 10, 10, 0.9); }
       .hero.is-white .subtitle a:not(.button),
@@ -6762,7 +6763,8 @@ label.panel-block {
     .hero.is-black .title {
       font-family: "Prata", serif;
       font-weight: 400;
-      color: white; }
+      color: white;
+      line-height: 1.5; }
     .hero.is-black .subtitle {
       color: rgba(255, 255, 255, 0.9); }
       .hero.is-black .subtitle a:not(.button),
@@ -6804,7 +6806,8 @@ label.panel-block {
     .hero.is-light .title {
       font-family: "Prata", serif;
       font-weight: 400;
-      color: #363636; }
+      color: #363636;
+      line-height: 1.5; }
     .hero.is-light .subtitle {
       color: rgba(54, 54, 54, 0.9); }
       .hero.is-light .subtitle a:not(.button),
@@ -6846,7 +6849,8 @@ label.panel-block {
     .hero.is-dark .title {
       font-family: "Prata", serif;
       font-weight: 400;
-      color: whitesmoke; }
+      color: whitesmoke;
+      line-height: 1.5; }
     .hero.is-dark .subtitle {
       color: rgba(245, 245, 245, 0.9); }
       .hero.is-dark .subtitle a:not(.button),
@@ -6888,7 +6892,8 @@ label.panel-block {
     .hero.is-primary .title {
       font-family: "Prata", serif;
       font-weight: 400;
-      color: #fff; }
+      color: #fff;
+      line-height: 1.5; }
     .hero.is-primary .subtitle {
       color: rgba(255, 255, 255, 0.9); }
       .hero.is-primary .subtitle a:not(.button),
@@ -6930,7 +6935,8 @@ label.panel-block {
     .hero.is-link .title {
       font-family: "Prata", serif;
       font-weight: 400;
-      color: #fff; }
+      color: #fff;
+      line-height: 1.5; }
     .hero.is-link .subtitle {
       color: rgba(255, 255, 255, 0.9); }
       .hero.is-link .subtitle a:not(.button),
@@ -6972,7 +6978,8 @@ label.panel-block {
     .hero.is-info .title {
       font-family: "Prata", serif;
       font-weight: 400;
-      color: #fff; }
+      color: #fff;
+      line-height: 1.5; }
     .hero.is-info .subtitle {
       color: rgba(255, 255, 255, 0.9); }
       .hero.is-info .subtitle a:not(.button),
@@ -7014,7 +7021,8 @@ label.panel-block {
     .hero.is-success .title {
       font-family: "Prata", serif;
       font-weight: 400;
-      color: #fff; }
+      color: #fff;
+      line-height: 1.5; }
     .hero.is-success .subtitle {
       color: rgba(255, 255, 255, 0.9); }
       .hero.is-success .subtitle a:not(.button),
@@ -7056,7 +7064,8 @@ label.panel-block {
     .hero.is-warning .title {
       font-family: "Prata", serif;
       font-weight: 400;
-      color: rgba(0, 0, 0, 0.7); }
+      color: rgba(0, 0, 0, 0.7);
+      line-height: 1.5; }
     .hero.is-warning .subtitle {
       color: rgba(0, 0, 0, 0.9); }
       .hero.is-warning .subtitle a:not(.button),
@@ -7098,7 +7107,8 @@ label.panel-block {
     .hero.is-danger .title {
       font-family: "Prata", serif;
       font-weight: 400;
-      color: #fff; }
+      color: #fff;
+      line-height: 1.5; }
     .hero.is-danger .subtitle {
       color: rgba(255, 255, 255, 0.9); }
       .hero.is-danger .subtitle a:not(.button),
@@ -7323,7 +7333,8 @@ label.panel-block {
           color: whitesmoke; }
       @media screen and (max-width: 768px) {
         .footer .footer-content .footer-brand {
-          line-height: 2em; } }
+          line-height: 2em;
+          padding-top: 2.5rem; } }
 
 .sub-footer {
   padding: 1rem 1.5rem 1rem;
@@ -7363,7 +7374,7 @@ label.panel-block {
     position: absolute;
     width: 100%;
     min-height: calc(100% - 52px);
-    margin-left: -1rem;
+    margin-left: -1.5rem;
     opacity: 0.5; } }
 
 .home_hero-content {
@@ -7395,6 +7406,7 @@ label.panel-block {
     line-height: 1.25em !important; }
     @media screen and (max-width: 768px) {
       .home_hero-content .title {
+        font-size: 3rem !important;
         line-height: 1.25em !important; } }
     @media screen and (min-width: 1408px) {
       .home_hero-content .title {

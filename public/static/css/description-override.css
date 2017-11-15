@@ -5,6 +5,9 @@
 	background-size: cover;
 	background-position: center;
 }
+.topbox--pricing {
+	background-image: url("../images/pricing.jpg");
+}
 .topbox .hero-body {
 	padding-top: 0.5rem;
 }

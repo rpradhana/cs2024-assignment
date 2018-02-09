@@ -1,6 +1,8 @@
 # cs2024
 NTU CS2024: Web Design and Technologies
 
+http://lamariee.netlify.com/
+
 ### Getting Started
 
 Install dependencies
